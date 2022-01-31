@@ -87,7 +87,7 @@
 </head>
 
 <body>
-    <div class="container-fluid p-0 m-0 d-flex align-items-stresh">
+    <div class="container-fluid p-0 m-0 d-flex flex-wrap align-items-stresh">
         <?= $contents ?>
 
     </div>
