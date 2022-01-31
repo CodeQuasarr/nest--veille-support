@@ -1,33 +1,33 @@
-<!doctype html>
-<html lang="en">
+<?php
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+use App\Autoload;
+use App\Controllers\AdminController;
+use App\Controllers\HomeController;
+use App\Controllers\LoginController;
+session_start();
+require "Autoload.php";
+Autoload::webRun();
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
-    <link rel="stylesheet" href="main.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Veille NestJS!</title>
-</head>
-
-<body>
-
-    <h1>HELLO WORK</h1>
-    
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-</body>
-
-</html>
+$controle = new HomeController;
+$login = new LoginController;
+$admin = new AdminController;
+// FILTER_SANITIZE_URL
+//  on recois l'url des demande de page
+$page = explode('/', filter_var($_GET["url"]),FILTER_SANITIZE_URL);
+// var_dump($page);
+try {
+    // echo "<pre>";
+    // var_dump($page);
+    if (empty($_GET["url"])) {
+        $controle->home();
+    } else {
+        switch ($page[0]) {
+            case 'home': $controle->home();
+                break;
+            default: throw new Exception("La page n'existe pas"); 
+        }
+    }
+} catch (Exception $e) {
+    header('HTTP/1.0 404 Not found');
+}
