@@ -1,5 +1,5 @@
 
-<div style="background-color:#171923" class="right col-md-9 ms-auto pb-5">
+<div style="background-color:#171923" class="right col-12 col-md-9 ms-auto pb-5">
     <div class="content col-12 p-5">
         <div class="content col-12 text-end ">
             <a class="text-secondary display-6" href=""><i class="fas fa-home"></i></a>

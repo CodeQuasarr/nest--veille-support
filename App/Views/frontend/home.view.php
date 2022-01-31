@@ -1,47 +1,4 @@
 
-<div style="max-height:100vh; background-color:#12141C" class="d-block d-md-none d-lg-none col-12">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <img height="50" width="50" src="public/web/logo/nest.svg" alt="">
-            <a class="navbar-brand next-text-color" target="_blank" href="https://NestJS.com/">
-                NestJS
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <h2><a class="nav-link active" aria-current="page" href="#about">Quoi de neuf</a>
-                        </h2>
-                    </li>
-                    <li class="nav-item">
-                        <h2><a class="nav-link" href="#install">Installation</a></h2>
-
-                    </li>
-                    <li class="nav-item">
-                        <h2> <a class="nav-link" href="#base">Composant de base</a></h2>
-
-                    </li>
-                    <li class="nav-item">
-                        <h2><a class="nav-link" href="#tuto">Tuto</a></h2>
-
-                    </li>
-                    <li class="nav-item">
-                        <h2><a class="nav-link" href="#conclure">Fin</a></h2>
-
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>
-
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-    <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
-        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
-    </symbol>
-</svg>
 
 <div style="max-height:100vh; background-color:#171923" class="px-2 px-md-5 col-12 col-md-9 overflow-auto">
     <div class="col-12 mx-auto">
