@@ -1,17 +1,13 @@
 <?php
 
 use App\Autoload;
-use App\Controllers\AdminController;
 use App\Controllers\HomeController;
-use App\Controllers\LoginController;
 session_start();
 require "Autoload.php";
 Autoload::webRun();
 
 
 $controle = new HomeController;
-$login = new LoginController;
-$admin = new AdminController;
 // FILTER_SANITIZE_URL
 //  on recois l'url des demande de page
 $page = explode('/', filter_var($_GET["url"]),FILTER_SANITIZE_URL);
@@ -23,6 +19,7 @@ try {
         $controle->home();
     } else {
         switch ($page[0]) {
+            case '/':
             case 'home': $controle->home();
                 break;
             default: throw new Exception("La page n'existe pas"); 
