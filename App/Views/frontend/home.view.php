@@ -281,7 +281,7 @@
                             ou suivre Mon petit tuto <a href="tuto">ici</a>
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/projet.png" alt="">
+                            <img class="w-100" src="public/web/projet.png" alt="">
                         </div>
                     </div>
 

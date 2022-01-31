@@ -58,7 +58,7 @@
                             Voici ce que nous allons faire
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/projet.png" alt="">
+                            <img class="w-100" src="public/web/projet.png" alt="">
                         </div>
                         <h2 class="title py-4"> <span class="next-text-color">1- </span> Préparez le terrain pour NestJS
                         </h2>
@@ -80,7 +80,7 @@
                         </div>
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/terminal.png" alt="">
+                            <img class="w-100" src="public/web/terminal.png" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             Il vous sera demandé de choisir votre gestionnaire de
@@ -95,7 +95,7 @@
                         <h4 class="title py-4 ms-4"> <span class="next-text-color"># </span>Lancement du serveur de
                             développement</h4>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/ide.png" alt="">
+                            <img class="w-100" src="public/web/ide.png" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             Ouvrez une ligne de commande dans le dossier du projet et exécutez :
@@ -109,7 +109,7 @@
                             votre navigateur à cette adresse pour voir tourner l'application.
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/HELLOwORLD.PNG" alt="">
+                            <img class="w-100" src="public/web/HELLOwORLD.PNG" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             À chaque fois que vous enregistrerez des modifications dans un fichier de l'application, le
@@ -124,7 +124,7 @@
                             Vous allez majoritairement travailler dans le dossier <span class="text-danger">src</span>
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/files.PNG" alt="">
+                            <img class="w-100" src="public/web/files.PNG" alt="">
                         </div>
 
                         <p class="paragraph ms-4">
@@ -151,7 +151,7 @@
                             fonctionnalités à votre controlleur
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/sup1.PNG" alt="">
+                            <img class="w-100" src="public/web/sup1.PNG" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             <br> Nous n'avons pas vraiment besoin de certain fichiers comme le <span
@@ -214,7 +214,7 @@
                         </div>
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/dawin.PNG" alt="">
+                            <img class="w-100" src="public/web/dawin.PNG" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             Vous remarquerez que cela vous crée un répertoire dans lequel se trouvent tous les
@@ -246,7 +246,7 @@
                             vous verrez
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/dawinShow.PNG" alt="">
+                            <img class="w-100" src="public/web/dawinShow.PNG" alt="">
                         </div>
 
                         <p class="paragraph ms-4">
@@ -268,7 +268,7 @@
                                 class="text-danger">main.ts</span> de la sorte
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/crud.PNG" alt="">
+                            <img class="w-100" src="public/web/crud.PNG" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             Ouvrez votre navigateur et accédez à <a
@@ -276,7 +276,7 @@
                             utilisateur Swagger.
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/sawager.PNG" alt="">
+                            <img class="w-100" src="public/web/sawager.PNG" alt="">
                         </div>
 
                         <p class="paragraph ms-4">
@@ -303,7 +303,7 @@
                         </p>
 
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/bd.PNG" alt="">
+                            <img class="w-100" src="public/web/bd.PNG" alt="">
                         </div>
 
                         <p class="paragraph ms-4">
@@ -312,7 +312,7 @@
                         </p>
 
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet/crudapi.PNG" alt="">
+                            <img class="w-100" src="public/web/crudapi.PNG" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             <span class="text-danger">dawin.entity.ts</span> represnente la classe Dawin que nous avon
