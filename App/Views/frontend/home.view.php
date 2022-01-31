@@ -32,7 +32,7 @@
 <div style="max-height:100vh; background-color:#12141C" class="d-block d-md-none d-lg-none col-12">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <img height="50" width="50" src="web/logo/nest.svg" alt="">
+            <img height="50" width="50" src="public/web/logo/nest.svg" alt="">
             <a class="navbar-brand next-text-color" target="_blank" href="https://NestJS.com/">
                 NestJS
             </a>
