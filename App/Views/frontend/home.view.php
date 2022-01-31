@@ -1,3 +1,74 @@
+<<<<<<< HEAD
+=======
+<div style="max-height:100vh; background-color:#12141C" class="d-none d-md-block col-md-3">
+    <div class="py-4 col-12 d-flex align-items-center justify-content-center">
+        <img height="50" width="50" src="public/web/logo/nest.svg" alt="">
+        <h1 class="ms-4 next-text-color"> <a style="text-decoration: none;" class="next-text-color" target="_blank" href="https://NestJS.com/">NestJS</a></h1>
+    </div>
+    <nav class="nav flex-column pt-5">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <h2><a class="nav-link active" aria-current="page" href="#about">Quoi de neuf</a>
+                </h2>
+            </li>
+            <li class="nav-item">
+                <h2><a class="nav-link" href="#install">Installation</a></h2>
+
+            </li>
+            <li class="nav-item">
+                <h2> <a class="nav-link" href="#base">Composant de base</a></h2>
+
+            </li>
+            <li class="nav-item">
+                <h2><a class="nav-link" href="#tuto">Tuto</a></h2>
+
+            </li>
+            <li class="nav-item">
+                <h2><a class="nav-link" href="#conclure">Fin</a></h2>
+
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div style="max-height:100vh; background-color:#12141C" class="d-block d-md-none d-lg-none col-12">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img height="50" width="50" src="web/logo/nest.svg" alt="">
+            <a class="navbar-brand next-text-color" target="_blank" href="https://NestJS.com/">
+                NestJS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <h2><a class="nav-link active" aria-current="page" href="#about">Quoi de neuf</a>
+                        </h2>
+                    </li>
+                    <li class="nav-item">
+                        <h2><a class="nav-link" href="#install">Installation</a></h2>
+
+                    </li>
+                    <li class="nav-item">
+                        <h2> <a class="nav-link" href="#base">Composant de base</a></h2>
+
+                    </li>
+                    <li class="nav-item">
+                        <h2><a class="nav-link" href="#tuto">Tuto</a></h2>
+
+                    </li>
+                    <li class="nav-item">
+                        <h2><a class="nav-link" href="#conclure">Fin</a></h2>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+>>>>>>> parent of 8f5c90e (V1.1)
 
 
 <div style="max-height:100vh; background-color:#171923" class="px-2 px-md-5 col-12 col-md-9 overflow-auto">
