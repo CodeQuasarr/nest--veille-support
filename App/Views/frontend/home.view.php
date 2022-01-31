@@ -1,33 +1,3 @@
-<div style="max-height:100vh; background-color:#12141C" class="d-none d-md-block col-md-3">
-    <div class="py-4 col-12 d-flex align-items-center justify-content-center">
-        <img height="50" width="50" src="public/web/logo/nest.svg" alt="">
-        <h1 class="ms-4 next-text-color"> <a style="text-decoration: none;" class="next-text-color" target="_blank" href="https://NestJS.com/">NestJS</a></h1>
-    </div>
-    <nav class="nav flex-column pt-5">
-        <ul class="nav flex-column">
-            <li class="nav-item">
-                <h2><a class="nav-link active" aria-current="page" href="#about">Quoi de neuf</a>
-                </h2>
-            </li>
-            <li class="nav-item">
-                <h2><a class="nav-link" href="#install">Installation</a></h2>
-
-            </li>
-            <li class="nav-item">
-                <h2> <a class="nav-link" href="#base">Composant de base</a></h2>
-
-            </li>
-            <li class="nav-item">
-                <h2><a class="nav-link" href="#tuto">Tuto</a></h2>
-
-            </li>
-            <li class="nav-item">
-                <h2><a class="nav-link" href="#conclure">Fin</a></h2>
-
-            </li>
-        </ul>
-    </nav>
-</div>
 
 <div style="max-height:100vh; background-color:#12141C" class="d-block d-md-none d-lg-none col-12">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">

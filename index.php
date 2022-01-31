@@ -22,6 +22,8 @@ try {
             case '/':
             case 'home': $controle->home();
                 break;
+            case 'tuto': $controle->tuto();
+                break;
             default: throw new Exception("La page n'existe pas"); 
         }
     }

@@ -113,10 +113,41 @@
         </symbol>
     </svg>
     <div class="container-fluid d-flex flew-wrap align-items-stresh p-0 m-0 position relative">
+
+    <div style="background-color:#12141C" class="left col-md-3 position-fixed">
+    <div class="py-4 col-12 d-flex align-items-center justify-content-center">
+        <img height="50" width="50" src="web/logo/nest.svg" alt="">
+        <h1 class="ms-4 next-text-color"> <a style="text-decoration: none;" class="next-text-color" target="_blank" href="https://NestJS.com/">NestJS</a></h1>
+    </div>
+    <nav class="nav flex-column pt-5">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <h2><a class="nav-link active" aria-current="page" href="#about">Quoi de neuf</a>
+                </h2>
+            </li>
+            <li class="nav-item">
+                <h2><a class="nav-link" href="#install">Installation</a></h2>
+
+            </li>
+            <li class="nav-item">
+                <h2> <a class="nav-link" href="#base">Composant de base</a></h2>
+
+            </li>
+            <li class="nav-item">
+                <h2><a class="nav-link" href="tuto">Tuto</a></h2>
+
+            </li>
+            <li class="nav-item">
+                <h2><a class="nav-link" href="#conclure">Fin</a></h2>
+
+            </li>
+        </ul>
+    </nav>
+</div>
         <?= $contents ?>
 
     </div>
-    <footer class="bg-dark py-5 text-white d-flex align-items-center justify-content-center">
+    <footer class="bg-dark text-white d-flex align-items-center justify-content-center">
         <span>© 2021 Daré Samuel ANYARONKE, Tous droits réservés.</span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js "></script>
