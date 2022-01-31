@@ -10,5 +10,10 @@ class HomeController extends Controller
         $this->render(title: "home", description: "home page", path: "frontend/home");
     }
 
+    public function tuto()
+    {
+        $this->render(title: "tuto", description: "tuto page", path: "frontend/tuto");
+    }
+
     
 }
