@@ -102,9 +102,9 @@
                             </p>
                         </div>
 
-                        <h2 class="title py-4"> <span class="next-text-color">#</span> Comparaisons</h2>
+                         <!--<h2 class="title py-4"> <span class="next-text-color">#</span> Comparaisons</h2>
                         <div class="col-md-10">
-                            <!--<table class="table text-white">
+                            <table class="table text-white">
                                 <thead>
                                     <tr>
                                         <th scope="col"> </th>
