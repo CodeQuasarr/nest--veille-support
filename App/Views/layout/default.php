@@ -113,7 +113,7 @@
         </symbol>
     </svg>
     <div class="container-fluid d-flex flew-wrap align-items-stresh p-0 m-0 position relative">
-            <div style="background-color:#12141C" class=" <?= ($_GET['url'] != 'tuto') ? "d-none d-md-block" : "d-none"?>left col-md-3 position-fixed d-none ">
+            <div style="background-color:#12141C" class=" <?= ($_GET['url'] != 'tuto') ? "d-none d-md-block" : "d-none"?>left col-md-3 position-fixed ">
                 <div class="py-4 col-12 d-flex align-items-center justify-content-center">
                     <img height="50" width="50" src="public/web/logo/nest.svg" alt="">
                     <h1 class="ms-4 next-text-color"> <a style="text-decoration: none;" class="next-text-color"
