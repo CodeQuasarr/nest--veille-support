@@ -1,4 +1,4 @@
-<div style="background-color:#171923" class="right col-12 col-md-9 ms-auto pb-5">
+<div style="background-color:#171923" class="right col-12 <?= ($_GET['url'] == 'tuto') ? "col-12 p-5" : "col-md-9"?> ms-auto pb-5">
             <div style="background-color:#12141C" class="d-block d-md-none d-lg-none col-12">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">

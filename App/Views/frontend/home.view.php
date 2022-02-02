@@ -101,6 +101,33 @@
                                 -La forte utilisation des décorateurs, presque abusive, nuit à la lisibilité du code.
                             </p>
                         </div>
+
+                        <h2 class="title py-4"> <span class="next-text-color">#</span> Comparaisons</h2>
+                        <div class="col-md-10">
+                            <table class="table text-white">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"> </th>
+                                        <th scope="col">ExpressJS</th>
+                                        <th scope="col">Nest</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Caractéristique</td>
+                                        <td>
+                                            55.8k étoiles <br>
+                                        </td>
+                                        <td>44.1k étoiles</td>
+                                    </tr>
+                                    tr>
+                                        <td>Caractéristique</td>
+                                        <td>Express est un framework de routage</td>
+                                        <td>Otto</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
 
                     <div style="min-height: 100;" class="py-5" id="install">
