@@ -137,7 +137,7 @@
                             Il vous faudra quelques outils indispensables pour du développement NestJS en toute tranquillité.
                         </P>
                         <P class="paragraph">
-                            Tout d'abord, vous aurez besoin du runtime node que vous pouvez telecharger <a claje vous invite soit à cloner mon repectoire <a class="fw-bold" href="https://nodejs.org/en/download/">ici</a>.
+                            Tout d'abord, vous aurez besoin du runtime node que vous pouvez telecharger <a class="fw-bold" href="https://nodejs.org/en/download/">ici</a>.
                             <br>
                             Fourni avec Node, vous aurez le package npm qui vous permettra d'installer le CLI Nest
                         </p>
@@ -184,7 +184,7 @@
 
                             <p class="paragraph ms-4">
                                 une fois l'intallation complet dans les deux cas ,
-                                Ouvrez votre navigateur et accédez à <a claje vous invite soit à cloner mon repectoire <a class="fw-bold" href="http://localhost:3000/">http://localhost:3000/</a>.
+                                Ouvrez votre navigateur et accédez à <a class="fw-bold" href="http://localhost:3000/">http://localhost:3000/</a>.
                             </p>
                         </div>
                     </div>
@@ -303,12 +303,12 @@
                     <div style="min-height: 100;" class="py-5" id="tuto">
                         <h1>#TUTO# </h1>
                         <p class="paragraph ms-4">
-                            je vous invite soit à cloner mon repectoire <a class="fw-bold" href="https://github.com/Sanyaronke/veille_techno_nest_js">Git</a> et le testé <a claje vous invite soit à cloner mon repectoire <a class="fw-bold" href="https://api-support.herokuapp.com/">ici</a> ou qui vous permettra de faire faire un API Rest avec NestJS
+                            je vous invite à cloner mon mon repectoire <a class="fw-bold" href="https://github.com/Sanyaronke/veille_techno_nest_js">Git</a> et visiter <a class="fw-bold" href="https://api-support.herokuapp.com/">l'application</a>; ce mini projet vous permet de faire un API Rest avec NestJS
                             <br>
-                            ou suivre Mon petit tuto <a claje vous invite soit à cloner mon repectoire <a class="fw-bold" href="tuto">ici</a>
+                            ou suivre Mon petit tuto <a class="fw-bold" href="tuto">ici</a>
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet.PNG" alt="">
+                            <img class="w-100" src="public/web/projet.png" alt="">
                         </div>
                     </div>
 
