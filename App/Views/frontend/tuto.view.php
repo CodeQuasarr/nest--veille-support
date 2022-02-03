@@ -58,7 +58,7 @@
                             Voici ce que nous allons faire
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/projet.png" alt="">
+                            <img class="w-100" src="public/web/projet.PNG" alt="">
                         </div>
                         <h2 class="title py-4"> <span class="next-text-color">1- </span> Préparez le terrain pour NestJS
                         </h2>
@@ -80,7 +80,7 @@
                         </div>
                         </p>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/terminal.png" alt="">
+                            <img class="w-100" src="public/web/terminal.PNG" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             Il vous sera demandé de choisir votre gestionnaire de
@@ -95,7 +95,7 @@
                         <h4 class="title py-4 ms-4"> <span class="next-text-color"># </span>Lancement du serveur de
                             développement</h4>
                         <div class="col-12">
-                            <img class="w-100" src="public/web/ide.png" alt="">
+                            <img class="w-100" src="public/web/ide.PNG" alt="">
                         </div>
                         <p class="paragraph ms-4">
                             Ouvrez une ligne de commande dans le dossier du projet et exécutez :

@@ -102,31 +102,56 @@
                             </p>
                         </div>
 
-                         <!--<h2 class="title py-4"> <span class="next-text-color">#</span> Comparaisons</h2>
+                        <h2 class="title py-4"> <span class="next-text-color">#</span> Comparaisons</h2>
                         <div class="col-md-10">
                             <table class="table text-white">
                                 <thead>
                                     <tr>
-                                        <th scope="col"> </th>
+                                        <th scope="col">CARACTÉRISTIQUES GÉNÉRALES</th>
                                         <th scope="col">ExpressJS</th>
                                         <th scope="col">Nest</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Caractéristique</td>
-                                        <td>
-                                            55.8k étoiles <br>
-                                        </td>
-                                        <td>44.1k étoiles</td>
+                                <tr>
+                                        <td>Dernière date de sortie</td>
+                                        <td>16 novembre 2010</td>
+                                        <td>25 octobre 2016</td>
                                     </tr>
-                                    tr>
-                                        <td>Caractéristique</td>
-                                        <td>Express est un framework de routage</td>
-                                        <td>Otto</td>
+                                    <tr>
+                                        <td></td>
+                                        <td>55.8k étoiles</td>
+                                        <td> 44.1k étoiles </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Auteur</td>
+                                        <td>TJ Holowaychuck et sa communauté</td>
+                                        <td> Verce </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gratuit et Open Source</td>
+                                        <td>OUI</td>
+                                        <td> OUI</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Licence</td>
+                                        <td>Licence MIT</td>
+                                        <td>Licence MIT</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Ecrit en </td>
+                                        <td>JavaScript</td>
+                                        <td>JavaScript et TypeScript</td>
+                                    </tr>
+                                    
+                                    <tr>	
+                                        <td>Statut de développement</td>
+                                        <td>de Débutant à Mature</td>
+                                        <td>Mature</td>
                                     </tr>
                                 </tbody>
-                            </table>-->
+                            </table>
                         </div>
                     </div>
 
