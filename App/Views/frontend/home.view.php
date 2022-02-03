@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="content col-12">
-                    <div style="min-height: 100;" class="py-5" id="about">
+                    <div data-aos="fade-right" style="min-height: 100;" class="py-5" id="about">
                         <h1>QUOI DE NEUF </h1>
                         <h2 class="title py-4"> <span class="next-text-color">#</span> NestJS ?</h2>
                         <div class="col-md-10">
@@ -104,7 +104,7 @@
 
                         <h2 class="title py-4"> <span class="next-text-color">#</span> Comparaisons</h2>
                         <div class="col-md-10">
-                            <table class="table text-white link_add">
+                            <table class="table link_add">
                                 <thead>
                                     <tr>
                                         <th scope="col">CARACTÉRISTIQUES GÉNÉRALES</th>
@@ -155,14 +155,14 @@
                         </div>
                     </div>
 
-                    <div style="min-height: 100;" class="py-5" id="install">
+                    <div data-aos="fade-right" data-aos-duration="1000" style="min-height: 100;" class="py-5" id="install">
                         <h1>INSTALLATION</h1>
 
                         <P class="paragraph">
                             Il vous faudra quelques outils indispensables pour du développement NestJS en toute tranquillité.
                         </P>
                         <P class="paragraph">
-                            Tout d'abord, vous aurez besoin du runtime node que vous pouvez telecharger <a class="fw-bold link_add" href="https://nodejs.org/en/download/">ici</a>.
+                            Tout d'abord, vous aurez besoin du runtime node que vous pouvez telecharger <a class="fw-bold " href="https://nodejs.org/en/download/">ici</a>.
                             <br>
                             Fourni avec Node, vous aurez le package npm qui vous permettra d'installer le CLI Nest
                         </p>
@@ -209,12 +209,12 @@
 
                             <p class="paragraph ms-4">
                                 une fois l'intallation complet dans les deux cas ,
-                                Ouvrez votre navigateur et accédez à <a class="fw-bold link_add" href="http://localhost:3000/">http://localhost:3000/</a>.
+                                Ouvrez votre navigateur et accédez à <a class="fw-bold " href="http://localhost:3000/">http://localhost:3000/</a>.
                             </p>
                         </div>
                     </div>
 
-                    <div style="min-height: 100;" class="py-5" id="base">
+                    <div data-aos="fade-right" data-aos-duration="1000" style="min-height: 100;" class="py-5" id="base">
                         <h1>COMPOSANT DE BASE </h1>
                         <h2 class="title py-4"> <span class="next-text-color">#</span> Les controllers</h2>
                         <div class="col-md-10">
@@ -240,7 +240,7 @@
 
                         <div class="col-md-10 ms-auto">
                             <h5 class="title py-4"> <span class="next-text-color">- </span> main.ts</h5>
-                            <div class="col-12 text-white">
+                            <div data-aos="fade-left" class="col-12 text-white">
                                 <pre tabindex="0"><code class="">
                                             <span class="keyword">import</span> <span class="punctuation">{</span> NestFactory <span class="punctuation">}</span> <span class="keyword">from</span> <span class="string">'@NestJS/core'</span><span class="punctuation">;</span>
                                             <span class="keyword">import</span> <span class="punctuation">{</span> AppModule <span class="punctuation">}</span> <span class="keyword">from</span> <span class="string">'./app.module'</span><span class="punctuation">;</span><font></font>
@@ -265,7 +265,7 @@
                                 <br>
                                 Exemple :
                             </p>
-                            <div class="col-12 text-white">
+                            <div data-aos="fade-left" class="col-12 text-white">
                                 <pre class=" language-typescript" tabindex="0"><code class=" language-typescript">
                                               <span class="function">describe</span><span class="punctuation">(</span><span class="string">'root'</span><span class="punctuation">,</span> <span class="punctuation">(</span><span class="punctuation">)</span> <span class="operator">=&gt;</span> <span class="punctuation">{</span>
                                                 <span class="function">it</span><span class="punctuation">(</span><span class="string">'should return "Hello World!"'</span><span class="punctuation">,</span> <span class="keyword">async</span> <span class="punctuation">(</span><span class="punctuation">)</span> <span class="operator">=&gt;</span> <span class="punctuation">{</span>
@@ -280,7 +280,7 @@
                             </p>
 
                             <h5 class="title py-4"> <span class="next-text-color">- </span> app.controller.ts</h5>
-                            <div class="col-12 text-white">
+                            <div data-aos="fade-left" class="col-12 text-white">
                                 <pre class="hide language-typescript" tabindex="0"><code class=" language-typescript">
                                             <span class="keyword">import</span> <span class="punctuation">{</span> Controller<span class="punctuation">,</span> Get <span class="punctuation">}</span> <span class="keyword">from</span> <span class="string">'@NestJS/common'</span><span class="punctuation">;</span>
                                             
@@ -300,7 +300,7 @@
                             </p>
 
                             <h5 class="title py-4"> <span class="next-text-color">- </span> app.service.ts</h5>
-                            <div class="col-12 text-white">
+                            <div data-aos="fade-left" class="col-12 text-white">
                                 <pre class="hide language-typescript" tabindex="0"><code class=" language-typescript">
                                             <span class="keyword">import</span> <span class="punctuation">{</span> Injectable<span class="punctuation">,</span> Get <span class="punctuation">}</span> <span class="keyword">from</span> <span class="string">'@NestJS/common'</span><span class="punctuation">;</span>
                                             
@@ -325,19 +325,19 @@
 
                     </div>
 
-                    <div style="min-height: 100;" class="py-5" id="tuto">
+                    <div data-aos="fade-right" data-aos-duration="1000" style="min-height: 100;" class="py-5" id="tuto">
                         <h1>#TUTO# </h1>
                         <p class="paragraph ms-4">
-                            je vous invite à cloner mon mon repectoire <a class="fw-bold link_add" href="https://github.com/Sanyaronke/veille_techno_nest_js">Git</a> et visiter <a class="fw-bold link_add" href="https://api-support.herokuapp.com/">l'application</a>; ce mini projet vous permet de faire un API Rest avec NestJS
+                            je vous invite à cloner mon mon repectoire <a class="fw-bold " href="https://github.com/Sanyaronke/veille_techno_nest_js">Git</a> et visiter <a class="fw-bold " href="https://api-support.herokuapp.com/">l'application</a>; ce mini projet vous permet de faire un API Rest avec NestJS
                             <br>
-                            ou suivre Mon petit tuto <a class="fw-bold link_add" href="tuto">ici</a>
+                            ou suivre Mon petit tuto <a class="fw-bold " href="tuto">ici</a>
                         </p>
                         <div class="col-12">
                             <img class="w-100" src="public/web/projet.png" alt="">
                         </div>
                     </div>
 
-                    <div style="min-height: 100;" class="py-5" id="conclure">
+                    <div data-aos="fade-right" data-aos-duration="1000" style="min-height: 100;" class="py-5" id="conclure">
                         <h1>Pour conclure </h1>
                         <p class="paragraph ms-4">
                             NestJS est un framework back-end complet qui a l’intelligence
