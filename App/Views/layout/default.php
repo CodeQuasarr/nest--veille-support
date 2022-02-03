@@ -102,6 +102,10 @@
             color: #E0234E !important;
             transition: all 0.5 ease;
         }
+        .link_add {
+            color: #CFE2FF !important;
+            
+        }
     </style>
 </head>
 
