@@ -216,30 +216,8 @@
 
                     <div data-aos="fade-right" data-aos-duration="1000" style="min-height: 100;" class="py-5" id="base">
                         <h1>COMPOSANT DE BASE </h1>
-                        <h2 class="title py-4"> <span class="next-text-color">#</span> Les controllers</h2>
-                        <div class="col-md-10">
-                            <p class="paragraph ms-4">
-                                Dans NestJS, les contrôleurs sont responsables du traitement des
-                                demandes entrantes et de la réponse au côté client de l’application..
-                            </p>
-                        </div>
 
-                        <h2 class="title py-4"> <span class="next-text-color">#</span> Les modules</h2>
-                        <div class="col-md-10">
-                            <p class="paragraph ms-4">
-                                Les modules sont utilisés pour structurer le code et séparer les fonctionnalités en morceaux logiques et réutilisables.
-                            </p>
-                        </div>
-
-                        <h2 class="title py-4"> <span class="next-text-color">#</span> Les services</h2>
-                        <div class="col-md-10">
-                            <p class="paragraph ms-4">
-                                Les services permettent d’abstraire la complexité et la logique de l’utilisateur. Il est possible d’injecter le service dans des contrôleurs ou d’autres services.
-                            </p>
-                        </div>
-
-                        <div class="col-md-10 ms-auto">
-                            <h5 class="title py-4"> <span class="next-text-color">- </span> main.ts</h5>
+                        <h2 class="title py-4"> <span class="next-text-color">- </span> main.ts</h2>
                             <div data-aos="fade-left" class="col-12 text-white">
                                 <pre tabindex="0"><code class="">
                                             <span class="keyword">import</span> <span class="punctuation">{</span> NestFactory <span class="punctuation">}</span> <span class="keyword">from</span> <span class="string">'@NestJS/core'</span><span class="punctuation">;</span>
@@ -258,6 +236,15 @@
                                 <br>
                                 Le main.ts contient une fonction asynchrone qui lancera Votre application en écoutant sur le port 3000.
                             </p>
+
+                        <h2 class="title py-4"> <span class="next-text-color">#</span> Les controllers</h2>
+                        <div class="col-md-10">
+                            <p class="paragraph ms-4">
+                                Dans NestJS, les contrôleurs sont responsables du traitement des
+                                demandes entrantes et de la réponse au côté client de l’application..
+                            </p>
+                        </div>
+                        <div class="col-md-10 ms-auto">
 
                             <h5 class="title py-4"> <span class="next-text-color">- </span> app.controller.spec.ts</h5>
                             <p class="paragraph ms-4">
@@ -298,7 +285,30 @@
                                 <br>
                                 Le décorateur <span class="text-danger">@Get()</span> indique à Nest de créer un gestionnaire pour un point de terminaison spécifique pour les requêtes HTTP
                             </p>
+                        </div>
 
+                        <h2 class="title py-4"> <span class="next-text-color">#</span> Les modules</h2>
+                        <div class="col-md-10">
+                            <p class="paragraph ms-4">
+                                Les modules sont utilisés pour structurer le code et séparer les fonctionnalités en morceaux logiques et réutilisables.
+                            </p>
+                        </div>
+
+                        <h2 class="title py-4"> <span class="next-text-color">#</span> Les services</h2>
+                        <div class="col-md-10">
+                            <p class="paragraph ms-4">
+                                Les services permettent d’abstraire la complexité et la logique de l’utilisateur. Il est possible d’injecter le service dans des contrôleurs ou d’autres services.
+                            </p>
+                        </div>
+                        
+
+                        <div class="col-md-10 ms-auto">
+                            
+
+                            
+                            <p class="paragraph ms-4">
+                                Ce code permet de tester si Nest renvoie <span class="text-danger">hello world</span>
+                            </p>
                             <h5 class="title py-4"> <span class="next-text-color">- </span> app.service.ts</h5>
                             <div data-aos="fade-left" class="col-12 text-white">
                                 <pre class="hide language-typescript" tabindex="0"><code class=" language-typescript">
